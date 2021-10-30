@@ -1,0 +1,119 @@
+* {
+  color: #2E3435;
+  font-family: 'Bebas Neue', cursive;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box
+}
+
+body {
+  background: #C5DDE3;
+  height: auto;
+  overflow: hidden;
+  width: 100%;
+}
+nav{
+  background: #123C6B;
+  height: 80px;
+  width: 100%;
+  position: fixed;
+}
+label.logo{
+  font-family: "Permanent Marker", cursive;
+  color: Azure;
+  font-size:35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
+}
+
+nav ul{
+  float: right;
+  margin-right: 20px;
+}
+
+nav ul li{
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+nav ul li a{
+  color: Azure;
+  font-size: 24px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+a:hover{
+  background: #164866;
+  transition: .5s;
+}
+section{
+  background: url(pexels-janez-podnar-1424246.jpg) no-repeat;
+  background-size: cover;
+  height: calc(100vh - 80px);
+}
+
+.font-front{
+  width: 80%;
+  margin: 4% 10% 5% 10%;
+}
+
+.text-wrap{
+  width: 100%;
+  position: relative;
+  margin-top: -40%;
+}
+
+.text-wrap h1{
+  text-align: center;
+  color: Azure;
+  font-size: 10vw;
+}
+
+.max-width{
+  max-width: 1300px;
+  padding: 0 80px;
+  margin: auto;
+}
+
+/* HOME */
+.home{
+  display: flex;
+  background: url("pexels-janez-podnar-1424246.jpg") no-repeat;
+  height: 100vh;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 500px;
+  font-family: "Bebas Neue";
+  color: Azure;
+}
+
+.home .home-content .txt-1{
+  font-size: 75px;
+  color: Azure;
+}
+
+.home .home-content .txt-2{
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: -3px;
+  color: Azure;
+}
+
+.home .home-content .txt-3{
+  font-size: 50px;
+  margin: 5px 0;
+  color: Azure;
+}
+
+/*responsice*/
+@media (max-width: 991px) {
+  .max-width{
+    max-width: 1300px;
+    padding: 0 80px;
+    margin: auto;
+  }
+}
